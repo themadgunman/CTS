@@ -1,0 +1,88 @@
+changelog for mod "CTS - Complete Tech Solutions"
+
+- 10/11/2016
+
+	- added minifieable furniture tag to power sources, made the big plamsa gen + geoplasma rotatable
+
+- 19/11/2016
+
+	- make powergenerators passthroughonly with pathcost 150
+	- removed blocklight from bigplasmagenerator
+
+- 20/11/2016
+
+	- added designator for takeblood in orders menue
+	- added heatpusher to plasma geothermal
+
+- 05/01/2016
+
+	- updated to a16
+	- updated hediff xml tag comp
+	- added research def abstract base, requirement hitech bench + multianalyzer was missing
+	- research position x=17-19, with y=1 and y=2 (2 only for x=17+18)
+	- added mass to bloodbag (0.25), nanotechmed (0,5) (didnt change the medical potency)
+	- moved abstract in own xmls
+	- added trade tag "furniture" to medical equipment
+	- added new Roomidentifier property to adv hospital bed
+	- added mass medicine lab (75), adv vital monitor (30), adv hospital bed (65)
+	- set ai chill destination to false on adv vitals monitor
+	- adv vitals monitor: set medicaltend+immunity gain speed to double normal vital monitor values on adv one
+	- adv hospital bed: set medical tend to 0.20 (double vanilla value), immunity gain stayed at 1.3
+			set bed heal per day to 16 (12 is vanilla hospital bed)
+	- plasma big gen, set mass to 1250, added ai chill destination to false xml tag line
+	- plasma gen, set mass to 500, added ai chill destination to false xml tag line
+	- plasma geothermal gen, set mass to 750, added ai chill destination to false xml tag line
+
+- 13/01/2017
+
+	- fixed the worktomake bug in thingdefs to new xml tag worktobuild
+	- updated the dll file to a16
+	- added prisoner take blood acceptance to designator, removed the multiple billstack check (couldn't get it to work)
+	- added own recipe class to make take blood always sucessfull, the medicine 5 skillrequirement is still there. so should be okay
+
+- 05/06/2017
+
+	- update to a17
+
+- 06/06/2017
+
+	- code updates to changes in core code in a17
+	- added sellprice factor to buildingbase
+
+- 09/06/2017
+
+	- changed deteoration from 10 to 4 (similar other vanilla natural bodyparts)
+	- updated the thingdef_item xmls for base (added ticker never) and blood (natural bodypart,haulable,tradetag)
+
+- 10/06/2017
+
+	- added ingredient medicine to bloodtakerecipe
+	- added url to forum topic in about file
+
+- 13/06/2017
+
+	- added bloodtake designator over patchoperations to order menue to fix a conflict wiht the mod stuffed floors
+
+- 29/12/2017
+
+	- update to b18
+	- code update for recipe, bill missing, added sound for designator, sicne message and sound were split in b18
+	- added disease severity to abstract for hediff disease
+	- made extra reseach tab, since mod adds 5 projects
+	- <Defs> for others stuff like researchprojectdefs
+	- fixed case sensitive xml tags
+	- added <prioritizeSustains>true</prioritizeSustains> to workgiver for make medicine
+	- removed ignore needs power xml tag
+	- added adv components to stuff:
+		all medical stuff= 20 comp to 5 comp and 4 adv comp
+		plasma geo same as above
+		big plasma= 30 to 10 and for 20 comp same as above
+		small plasma= 3 comp to 1 adv (didnt wanted to make more then 4 res to build and only 21 wealth incr)
+	- recipe nano medicine ingredients, replaced 4 components with 1 adv component 
+	
+- 07/01/2018
+
+	- updated about file with a bit more info
+	- added patchoption find mod
+	- added patches to main mods, currently includes:
+		vanilla beds, goodnight, medicaddons, [t]morebeds(both versions), RIMkea, more furniture
