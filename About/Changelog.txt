@@ -86,3 +86,7 @@ changelog for mod "CTS - Complete Tech Solutions"
 	- added patchoption find mod
 	- added patches to main mods, currently includes:
 		vanilla beds, goodnight, medicaddons, [t]morebeds(both versions), RIMkea, more furniture
+
+- 20/01/2018
+
+	- added modsync file
