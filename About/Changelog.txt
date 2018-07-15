@@ -78,7 +78,7 @@ changelog for mod "CTS - Complete Tech Solutions"
 		plasma geo same as above
 		big plasma= 30 to 10 and for 20 comp same as above
 		small plasma= 3 comp to 1 adv (didnt wanted to make more then 4 res to build and only 21 wealth incr)
-	- recipe nano medicine ingredients, replaced 4 components with 1 adv component 
+	- recipe nano medicine ingredients, replaced 4 components with 1 adv ComponentIndustrial 
 	
 - 07/01/2018
 

@@ -18,7 +18,7 @@
         <defName>CTSTakeBlood</defName>
         <label>take blood</label>
         <description>Take blood</description>
-        <workerClass>CTS.Recipe_CTS_TakeBlood</workerClass>
+        <workerClass>Recipe_Surgery</workerClass>
         <jobString>Taking blood</jobString>
 		<isViolation>true</isViolation>
         <recipeUsers>
@@ -30,14 +30,14 @@
             <Medicine>5</Medicine>
         </skillRequirements>
 		<ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>

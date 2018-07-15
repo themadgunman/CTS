@@ -30,7 +30,6 @@
 		</li>
     </comps>
 	<alwaysHaulable>true</alwaysHaulable>
-	<isBodyPartOrImplant>true</isBodyPartOrImplant>
 	<tradeTags>
       <li>BodyPartOrImplant</li>
     </tradeTags>

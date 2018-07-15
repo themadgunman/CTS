@@ -15,6 +15,7 @@
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
+	  <Mass>0.2</Mass>
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>5</MarketValue>
       <Flammability>1.0</Flammability>
